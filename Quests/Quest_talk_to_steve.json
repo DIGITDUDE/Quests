@@ -1,15 +1,15 @@
 {
     "ConfigVersion": 22,
-    "ID": 2,
+    "ID": 3,
     "Type": 1,
-    "Title": "Pablo's package",
+    "Title": "Talk to Steve",
     "Descriptions": [
-        "in th chest is a note and a bag of weed, the note says  'bring this bag to peter he will know what to do' ",
-        "What are you still doing here? Go to Peter!",
-        "Who are you? what do you want? ** (He looks at the package with wide eyes and rips it out of your hands) ** Good!... What? Your way out? Well what should I say, but Pablo lied to you. There is no fucking way out of this hell, and you will die here like all of us. You can have these MRE's and try your luck out there. I am sorry Pablo lied to you, but we all have to survive here somehow. Maybe if you bring that bag of weed to steve he can help you make a living"
+        "Peter says Steve might be able to help me make a living out here",
+        "What are you still doing here? move your ass!",
+        "Aah you must be the delivery boy peter radioed about, i might be able to help you out setting up something for yourself, but you will first have to help me out."
     ],
-    "ObjectiveText": "Go to Peter and give him the package you found.",
-    "FollowUpQuest": 3,
+    "ObjectiveText": "Go to steve and give him the bag of weed you found.",
+    "FollowUpQuest": -1,
     "Repeatable": 0,
     "IsDailyQuest": 0,
     "IsWeeklyQuest": 0,
@@ -20,8 +20,8 @@
     "QuestItems": [],
     "Rewards": [
         {
-            "ClassName": "MassMRE10",
-            "Amount": 1,
+            "ClassName": "Scout556mag",
+            "Amount": 4,
             "Attachments": [],
             "DamagePercent": 0,
             "HealthPercent": 0,
@@ -29,7 +29,7 @@
             "Chance": 1.0
         },
         {
-            "ClassName": "MassMRE9",
+            "ClassName": "MassScout556",
             "Amount": 1,
             "Attachments": [],
             "DamagePercent": 0,
@@ -37,7 +37,7 @@
             "QuestID": -1,
             "Chance": 1.0
         }
-    ],
+            ],
     "NeedToSelectReward": 0,
     "RandomReward": 0,
     "RandomRewardAmount": -1,
@@ -59,7 +59,7 @@
     "ReputationReward": 0,
     "ReputationRequirement": -1,
     "PreQuestIDs": [
-        1
+        2
     ],
     "RequiredFaction": "",
     "FactionReward": "",
