@@ -30,7 +30,7 @@
         },
         {
             "ClassName": "RedemptionKeyCard_01",
-            "Amount": 500,
+            "Amount": 1,
             "Attachments": [],
             "DamagePercent": 0,
             "HealthPercent": 0,
