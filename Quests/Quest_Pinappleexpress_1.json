@@ -1,14 +1,14 @@
 {
     "ConfigVersion": 22,
-    "ID": 4,
+    "ID": 1,
     "Type": 1,
-    "Title": "Treasure Hunt - Currency",
+    "Title": "4-20 easterhunt",
     "Descriptions": [
-        "PLACEHOLDER",
-        "PLACEHOLDER",
-        "PLACEHOLDER"
+        "Before the collapse Pable ijscoman burried weed all over the place, go find it",
+        "when you smell it you are close, thats some fucking strong skunk",
+        "Roll it, light it, smoke it"
     ],
-    "ObjectiveText": "Find the treasure.",
+    "ObjectiveText": "Find the Weed.",
     "FollowUpQuest": -1,
     "Repeatable": 1,
     "IsDailyQuest": 1,
