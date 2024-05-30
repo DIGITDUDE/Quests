@@ -8,9 +8,7 @@
        "Collections": [
         {
             "Amount": 1,
-            "ClassName": "CP_CannabisBagSkunk",
-            "QuantityPercent": -1,
-            "MinQuantityPercent": -1
+            "ClassName": "CP_CannabisBagSkunk"
         }
     ],
     "ShowDistance": 100,
