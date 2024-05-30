@@ -1,0 +1,34 @@
+{
+    "ConfigVersion": 27,
+    "ID": 2,
+    "ObjectiveType": 6,
+    "ObjectiveText": "Find the Tobacco",
+    "TimeLimit": -1,
+    "Active": 1,
+    "ShowDistance": 1,
+    "ContainerName": "ExpansionQuestSeaChest",
+    "DigInStash": 1,
+    "MarkerName": "???",
+    "MarkerVisibility": 4,
+    "Positions": [
+        [
+            5233.509765625,
+            290.8810119628906,
+            6246.3701171875
+        ]
+    ],
+    "LootItemsAmount": 1,
+    "MaxDistance": 10.0,
+    "Loot": [
+        {
+            "Name": "CP_Tobacco",
+            "Chance": 1.0,
+            "Attachments": [],
+            "QuantityPercent": -1,
+            "Max": 10,
+            "Min": 0,
+            "Variants": []
+        }
+       
+    ]
+}
