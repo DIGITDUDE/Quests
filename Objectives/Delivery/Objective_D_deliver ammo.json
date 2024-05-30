@@ -1,0 +1,18 @@
+{
+    "ConfigVersion": 27,
+    "ID": 4,
+    "ObjectiveType": 5,
+    "ObjectiveText": "Deliver the ammo",
+    "TimeLimit": -1,
+    "Active": 1,
+       "Collections": [
+        {
+            "Amount": 10,
+            "ClassName": "AmmoBox_9x19_25rnd"
+        }
+    ],
+    "ShowDistance": 100,
+    "AddItemsToNearbyMarketZone": 0,
+    "MaxDistance": 20.0,
+    "MarkerName": "Deliver the ammo"
+}

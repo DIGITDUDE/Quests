@@ -1,0 +1,28 @@
+{
+    "ConfigVersion": 6,
+    "ID": 5,
+    "ClassName": "ExpansionQuestNPCAIEva",
+    "Position": [
+            1740.4,
+            143.08,
+            3823.43 
+    ],
+    "Orientation": [
+        -63.851,
+        -0.0,
+         0.0
+    ],
+    "NPCName": "Eva",
+    "DefaultNPCText": "Can i help you honey?",      
+    "Waypoints": [],
+    "NPCEmoteID": 46,
+    "NPCEmoteIsStatic": 0,
+    "NPCLoadoutFile": "",
+    "NPCInteractionEmoteID": 1,
+    "NPCQuestCancelEmoteID": 60,
+    "NPCQuestStartEmoteID": 58,
+    "NPCQuestCompleteEmoteID": 39,
+    "NPCFaction": "InvincibleObservers",
+    "NPCType": 2,
+    "Active": 1
+}
