@@ -41,7 +41,7 @@
         },
         {
             "ClassName": "Ammobox_408Chey",
-            "Amount": 1,
+            "Amount": 4,
             "Attachments": [],
             "DamagePercent": 0,
             "HealthPercent": 0,
@@ -58,7 +58,7 @@
             "Chance": 0.7
         }
     ],
-    "NeedToSelectReward": 1,
+    "NeedToSelectReward": 2,
     "RandomReward": 0,
     "RandomRewardAmount": -1,
     "RewardsForGroupOwnerOnly": 1,

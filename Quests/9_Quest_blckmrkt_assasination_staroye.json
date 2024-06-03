@@ -30,7 +30,7 @@
         },
         {
             "ClassName": "Ammo_BO_40mm_HE",
-            "Amount": 2,
+            "Amount": 8,
             "Attachments": [],
             "DamagePercent": 0,
             "HealthPercent": 0,
@@ -47,7 +47,7 @@
             "Chance": 0.7
         }
     ],
-    "NeedToSelectReward": 0,
+    "NeedToSelectReward": 1,
     "RandomReward": 0,
     "RandomRewardAmount": -1,
     "RewardsForGroupOwnerOnly": 1,
