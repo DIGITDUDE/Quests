@@ -2,22 +2,27 @@
     "ConfigVersion": 22,
     "ID": 1,
     "Type": 1,
-    "Title": "A dirty rat's job",
+    "Title": "4-20 easterhunt",
     "Descriptions": [
-        "Shit man, who are you? Is your name %1? I thought we already dealt with you. ** (He stares at you for a moment and then begins to smile) ** Ah nevermind... Today is your lucky day, my friend! If you do me a little favor, I'll make sure you get off this island as soon as possible. I swear by my mother's beard! All you have to do is take this NOTE here to my useless colleague Steve and have him read it, then he will give something to you. Bring it to me! You can find Steve in the little village down the street in the north west. Make sure he reads the note and don't come back empty handed!",
-        "I thought I made clear what you need to do?! Go to Steve now and don't come back empty handed!",
-        "Look at that... Another little bambi in the forests of death..."
+        "Before the collapse Pablo ijscoman burried weed all over the place, go find it",
+        "when you smell it you are close, thats some fucking strong skunk",
+        "Roll it, light it, smoke it"
     ],
-    "ObjectiveText": "Deliver the note and talk to Steve.",
+    "ObjectiveText": "Find the Weed.",
     "FollowUpQuest": 2,
     "Repeatable": 0,
     "IsDailyQuest": 0,
     "IsWeeklyQuest": 0,
     "CancelQuestOnPlayerDeath": 0,
-    "Autocomplete": 0,
+    "Autocomplete": 1,
     "IsGroupQuest": 0,
     "ObjectSetFileName": "",
-    "QuestItems": [],
+    "QuestItems": [
+        {
+            "ClassName": "Shovel",
+            "Amount": 1
+        }
+    ],
     "Rewards": [],
     "NeedToSelectReward": 0,
     "RandomReward": 0,
@@ -25,17 +30,27 @@
     "RewardsForGroupOwnerOnly": 1,
     "RewardBehavior": 0,
     "QuestGiverIDs": [
-        1
+        3
     ],
     "QuestTurnInIDs": [
-        2
+        3
     ],
     "IsAchievement": 0,
     "Objectives": [
         {
             "ConfigVersion": 27,
             "ID": 1,
-            "ObjectiveType": 5
+            "ObjectiveType": 6
+        },
+        {
+            "ConfigVersion": 27,
+            "ID": 2,
+            "ObjectiveType": 6
+        },
+        {
+            "ConfigVersion": 27,
+            "ID": 3,
+            "ObjectiveType": 6
         }
     ],
     "QuestColor": 0,

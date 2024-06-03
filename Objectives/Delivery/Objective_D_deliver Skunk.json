@@ -1,0 +1,18 @@
+{
+    "ConfigVersion": 27,
+    "ID": 3,
+    "ObjectiveType": 5,
+    "ObjectiveText": "Deliver the weed",
+    "TimeLimit": -1,
+    "Active": 1,
+       "Collections": [
+        {
+            "Amount": 1,
+            "ClassName": "CP_CannabisBagSkunk"
+        }
+    ],
+    "ShowDistance": 100,
+    "AddItemsToNearbyMarketZone": 0,
+    "MaxDistance": 20.0,
+    "MarkerName": "Deliver the Weed"
+}

@@ -1,0 +1,28 @@
+{
+    "ConfigVersion": 6,
+    "ID": 4,
+    "ClassName": "ExpansionQuestNPCAICyril",
+    "Position": [
+            2235.52,
+            269.198,
+            11099.9
+    ],
+    "Orientation": [
+        -37.8155,
+        -0.0,
+         0.0
+    ],
+    "NPCName": "Cyril",
+    "DefaultNPCText": "tok'n and smok'n",      
+    "Waypoints": [],
+    "NPCEmoteID": 46,
+    "NPCEmoteIsStatic": 0,
+    "NPCLoadoutFile": "HumanLoadout",
+    "NPCInteractionEmoteID": 1,
+    "NPCQuestCancelEmoteID": 60,
+    "NPCQuestStartEmoteID": 58,
+    "NPCQuestCompleteEmoteID": 39,
+    "NPCFaction": "InvincibleObservers",
+    "NPCType": 2,
+    "Active": 1
+}

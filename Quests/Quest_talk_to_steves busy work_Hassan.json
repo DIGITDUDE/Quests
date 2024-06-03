@@ -1,17 +1,17 @@
 {
     "ConfigVersion": 22,
-    "ID": 3,
+    "ID": 6,
     "Type": 1,
-    "Title": "Peter's package",
+    "Title": "deliver the ammo for steve",
     "Descriptions": [
-        "Oh right, here's what Peter wants. Bring it to him and he will be satisfied. Don't even think about opening the package! Just go and bring it to him.",
-        "What are you still doing here? Go to Peter!",
-        "Why did this take so long?... You got what I wanted? ** (He looks at the package with wide eyes and rips it out of your hands) ** Good!... What? Your way out? Well what should I say, but I lied to you. There is no fucking way out of this hell, and you will die here like all of us. You can have this backpack and try your luck out there. I am sorry I lied to you, but we all have to survive here somehow. I wish you good luck out there... You will need it."
+        "i need you to deliver some explosives to an assiociate of mine, no questions asked. his name is hassan and he is holed up on a military base called VMC Military",
+        "What are you still doing here? move your ass!",
+        "hello sweetheart, you must be one of steves people"
     ],
-    "ObjectiveText": "Go back to Peter and give him the package from Steve.",
+    "ObjectiveText": "Go to Hassan and deliver him the Bombs",
     "FollowUpQuest": -1,
-    "Repeatable": 0,
-    "IsDailyQuest": 0,
+    "Repeatable": 1,
+    "IsDailyQuest": 1,
     "IsWeeklyQuest": 0,
     "CancelQuestOnPlayerDeath": 0,
     "Autocomplete": 0,
@@ -20,7 +20,7 @@
     "QuestItems": [],
     "Rewards": [
         {
-            "ClassName": "TaloonBag_Blue",
+            "ClassName": "GardenLime",
             "Amount": 1,
             "Attachments": [],
             "DamagePercent": 0,
@@ -29,49 +29,54 @@
             "Chance": 1.0
         },
         {
-            "ClassName": "TaloonBag_Green",
+            "ClassName": "MVS_Pack_tan",
             "Amount": 1,
             "Attachments": [],
             "DamagePercent": 0,
             "HealthPercent": 0,
             "QuestID": -1,
-            "Chance": 1.0
+            "Chance": 0.25
         },
         {
-            "ClassName": "TaloonBag_Orange",
+            "ClassName": "MVS_Pack_black",
             "Amount": 1,
             "Attachments": [],
             "DamagePercent": 0,
             "HealthPercent": 0,
             "QuestID": -1,
-            "Chance": 1.0
+            "Chance": 0.25
         },
         {
-            "ClassName": "TaloonBag_Violet",
+            "ClassName": "MVS_Pack_OD",
             "Amount": 1,
             "Attachments": [],
             "DamagePercent": 0,
             "HealthPercent": 0,
             "QuestID": -1,
-            "Chance": 1.0
+            "Chance": 0.25
+        },
+        {
+            "ClassName": "MVS_Pack_ERDL",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 0.25
         }
-    ],
-    "NeedToSelectReward": 1,
+            ],
+    "NeedToSelectReward": 0,
     "RandomReward": 0,
-    "RandomRewardAmount": -1,
+    "RandomRewardAmount": 2,
     "RewardsForGroupOwnerOnly": 1,
     "RewardBehavior": 0,
-    "QuestGiverIDs": [
-        2
-    ],
-    "QuestTurnInIDs": [
-        1
-    ],
+    "QuestGiverIDs": [2],
+    "QuestTurnInIDs": [6],
     "IsAchievement": 0,
     "Objectives": [
         {
             "ConfigVersion": 27,
-            "ID": 2,
+            "ID": 5,
             "ObjectiveType": 5
         }
     ],
@@ -79,7 +84,7 @@
     "ReputationReward": 0,
     "ReputationRequirement": -1,
     "PreQuestIDs": [
-        2
+        3
     ],
     "RequiredFaction": "",
     "FactionReward": "",

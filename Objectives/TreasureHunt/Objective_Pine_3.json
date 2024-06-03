@@ -1,0 +1,33 @@
+{
+    "ConfigVersion": 27,
+    "ID": 3,
+    "ObjectiveType": 6,
+    "ObjectiveText": "Find the papers",
+    "TimeLimit": -1,
+    "Active": 1,
+    "ShowDistance": 1,
+    "ContainerName": "ExpansionQuestSeaChest",
+    "DigInStash": 1,
+    "MarkerName": "???",
+    "MarkerVisibility": 4,
+    "Positions": [
+        [
+            3143.35009765625,
+            365.7760009765625,
+            6942.0400390625
+        ]
+    ],
+    "LootItemsAmount": 2,
+    "MaxDistance": 10.0,
+    "Loot": [
+                {
+            "Name": "CP_Rollingpapers",
+            "Chance": 1.0,
+            "Attachments": [],
+            "QuantityPercent": -1,
+            "Max": 10,
+            "Min": 0,
+            "Variants": []
+        }
+    ]
+}

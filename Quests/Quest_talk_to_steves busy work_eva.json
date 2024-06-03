@@ -1,18 +1,18 @@
 {
     "ConfigVersion": 22,
-    "ID": 19,
+    "ID": 5,
     "Type": 1,
-    "Title": "Where Kings Walk",
+    "Title": "deliver the ammo for steve",
     "Descriptions": [
-        "PLACEHOLDER",
-        "PLACEHOLDER",
-        "PLACEHOLDER"
+        "deliver the ammo to eva, she is living in the church of pavlovo",
+        "What are you still doing here? move your ass!",
+        "hello sweetheart, you must be one of steves people"
     ],
-    "ObjectiveText": "PLACEHOLDER",
+    "ObjectiveText": "Go to eva and deliver her the ammo",
     "FollowUpQuest": -1,
     "Repeatable": 1,
-    "IsDailyQuest": 0,
-    "IsWeeklyQuest": 1,
+    "IsDailyQuest": 1,
+    "IsWeeklyQuest": 0,
     "CancelQuestOnPlayerDeath": 0,
     "Autocomplete": 0,
     "IsGroupQuest": 0,
@@ -20,40 +20,53 @@
     "QuestItems": [],
     "Rewards": [
         {
-            "ClassName": "ExpansionBanknoteHryvnia",
-            "Amount": 500,
+            "ClassName": "Shovel",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        },
+        {
+            "ClassName": "FarmingHoe",
+            "Amount": 1,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        },
+        {
+            "ClassName": "DONFOOD_SodaCan_MelloYello",
+            "Amount": 3,
             "Attachments": [],
             "DamagePercent": 0,
             "HealthPercent": 0,
             "QuestID": -1,
             "Chance": 1.0
         }
-    ],
+            ],
     "NeedToSelectReward": 0,
     "RandomReward": 0,
     "RandomRewardAmount": -1,
     "RewardsForGroupOwnerOnly": 1,
     "RewardBehavior": 0,
-    "QuestGiverIDs": [
-        1
-    ],
-    "QuestTurnInIDs": [
-        1
-    ],
+    "QuestGiverIDs": [2],
+    "QuestTurnInIDs": [5],
     "IsAchievement": 0,
     "Objectives": [
         {
             "ConfigVersion": 27,
             "ID": 4,
-            "ObjectiveType": 2
+            "ObjectiveType": 5
         }
     ],
     "QuestColor": 0,
     "ReputationReward": 0,
     "ReputationRequirement": -1,
     "PreQuestIDs": [
-        17,
-        18
+        3
     ],
     "RequiredFaction": "",
     "FactionReward": "",

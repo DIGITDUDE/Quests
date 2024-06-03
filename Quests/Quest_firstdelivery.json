@@ -1,15 +1,15 @@
 {
     "ConfigVersion": 22,
-    "ID": 13,
+    "ID": 2,
     "Type": 1,
-    "Title": "Catch a Fish",
+    "Title": "Pablo's package",
     "Descriptions": [
-        "PLACEHOLDER",
-        "Craft an improvised fishing rod and catch a mackerel.",
-        "Turn in quest to get reward."
+        "in th chest is a note and a bag of weed, the note says  'bring this bag to peter he will know what to do' ",
+        "What are you still doing here? Go to Peter!",
+        "Who are you? what do you want? ** (He looks at the package with wide eyes and rips it out of your hands) ** Good!... What? Your way out? Well what should I say, but Pablo lied to you. There is no fucking way out of this hell, and you will die here like all of us. You can have these MRE's and try your luck out there. I am sorry Pablo lied to you, but we all have to survive here somehow. Maybe if you bring that bag of weed to steve he can help you make a living"
     ],
-    "ObjectiveText": "Craft an improvised fishing rod and catch a mackerel!",
-    "FollowUpQuest": -1,
+    "ObjectiveText": "Go to Peter and give him the package you found.",
+    "FollowUpQuest": 3,
     "Repeatable": 0,
     "IsDailyQuest": 0,
     "IsWeeklyQuest": 0,
@@ -20,8 +20,8 @@
     "QuestItems": [],
     "Rewards": [
         {
-            "ClassName": "ExpansionBanknoteHryvnia",
-            "Amount": 10,
+            "ClassName": "MassMRE10",
+            "Amount": 1,
             "Attachments": [],
             "DamagePercent": 0,
             "HealthPercent": 0,
@@ -29,7 +29,7 @@
             "Chance": 1.0
         },
         {
-            "ClassName": "ImprovisedFishingRod",
+            "ClassName": "MassMRE9",
             "Amount": 1,
             "Attachments": [],
             "DamagePercent": 0,
@@ -43,9 +43,7 @@
     "RandomRewardAmount": -1,
     "RewardsForGroupOwnerOnly": 1,
     "RewardBehavior": 0,
-    "QuestGiverIDs": [
-        1
-    ],
+    "QuestGiverIDs": [],
     "QuestTurnInIDs": [
         1
     ],
@@ -53,19 +51,16 @@
     "Objectives": [
         {
             "ConfigVersion": 27,
-            "ID": 1,
-            "ObjectiveType": 11
-        },
-        {
-            "ConfigVersion": 27,
-            "ID": 2,
-            "ObjectiveType": 4
+            "ID": 3,
+            "ObjectiveType": 5
         }
     ],
     "QuestColor": 0,
     "ReputationReward": 0,
     "ReputationRequirement": -1,
-    "PreQuestIDs": [],
+    "PreQuestIDs": [
+        1
+    ],
     "RequiredFaction": "",
     "FactionReward": "",
     "PlayerNeedQuestItems": 1,

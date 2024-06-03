@@ -1,8 +1,8 @@
 {
     "ConfigVersion": 27,
-    "ID": 2,
+    "ID": 1,
     "ObjectiveType": 6,
-    "ObjectiveText": "Find the location of the treasure",
+    "ObjectiveText": "Find the location of the Weed",
     "TimeLimit": -1,
     "Active": 1,
     "ShowDistance": 1,
@@ -15,38 +15,37 @@
             2936.47998046875,
             350.40399169921877,
             6369.39013671875
-        ],
-        [
-            3143.35009765625,
-            365.7760009765625,
-            6942.0400390625
-        ],
-        [
-            5233.509765625,
-            290.8810119628906,
-            6246.3701171875
         ]
     ],
-    "LootItemsAmount": 2,
+    "LootItemsAmount": 1,
     "MaxDistance": 10.0,
     "Loot": [
         {
-            "Name": "CP_CannabisSeedsSkunk",
-            "Chance": 1.0,
+            "Name": "CP_CannabisStardawg",
+            "Chance": 0.3,
             "Attachments": [],
             "QuantityPercent": -1,
-            "Max": 1,
+            "Max": 10,
+            "Min": 0,
+            "Variants": []
+        },
+        {
+            "Name": "CP_CannabisS1",
+            "Chance": 0.3,
+            "Attachments": [],
+            "QuantityPercent": -1,
+            "Max": 10,
             "Min": 0,
             "Variants": []
         },
         {
             "Name": "CP_CannabisSkunk",
-            "Chance": 1.0,
+            "Chance": 0.3,
             "Attachments": [],
             "QuantityPercent": -1,
-            "Max": 1,
+            "Max": 10,
             "Min": 0,
             "Variants": []
-        },
+        }
     ]
 }

@@ -1,57 +1,66 @@
 {
     "ConfigVersion": 22,
-    "ID": 7,
+    "ID": 3,
     "Type": 1,
-    "Title": "Kill - Civilian Infected",
+    "Title": "Talk to Steve",
     "Descriptions": [
-        "PLACEHOLDER",
-        "PLACEHOLDER",
-        "PLACEHOLDER"
+        "Peter says Steve might be able to help me make a living out here",
+        "What are you still doing here? move your ass!",
+        "Aah you must be the delivery boy peter radioed about, i might be able to help you out setting up something for yourself, but you will first have to help me out."
     ],
-    "ObjectiveText": "Kill 100 civilian Infected.",
+    "ObjectiveText": "Go to steve and give him the bag of weed you found.",
     "FollowUpQuest": -1,
-    "Repeatable": 1,
+    "Repeatable": 0,
     "IsDailyQuest": 0,
-    "IsWeeklyQuest": 1,
+    "IsWeeklyQuest": 0,
     "CancelQuestOnPlayerDeath": 0,
     "Autocomplete": 0,
-    "IsGroupQuest": 1,
+    "IsGroupQuest": 0,
     "ObjectSetFileName": "",
     "QuestItems": [],
     "Rewards": [
         {
-            "ClassName": "ExpansionBanknoteHryvnia",
-            "Amount": 1000,
+            "ClassName": "Scout556mag",
+            "Amount": 4,
+            "Attachments": [],
+            "DamagePercent": 0,
+            "HealthPercent": 0,
+            "QuestID": -1,
+            "Chance": 1.0
+        },
+        {
+            "ClassName": "MassScout556",
+            "Amount": 1,
             "Attachments": [],
             "DamagePercent": 0,
             "HealthPercent": 0,
             "QuestID": -1,
             "Chance": 1.0
         }
-    ],
+            ],
     "NeedToSelectReward": 0,
     "RandomReward": 0,
     "RandomRewardAmount": -1,
     "RewardsForGroupOwnerOnly": 1,
     "RewardBehavior": 0,
-    "QuestGiverIDs": [
-        3
-    ],
+    "QuestGiverIDs": [],
     "QuestTurnInIDs": [
-        3
+        2
     ],
     "IsAchievement": 0,
     "Objectives": [
         {
             "ConfigVersion": 27,
-            "ID": 2,
-            "ObjectiveType": 2
+            "ID": 3,
+            "ObjectiveType": 5
         }
     ],
     "QuestColor": 0,
     "ReputationReward": 0,
     "ReputationRequirement": -1,
-    "PreQuestIDs": [],
+    "PreQuestIDs": [
+        2
+    ],
     "RequiredFaction": "",
     "FactionReward": "",
     "PlayerNeedQuestItems": 1,
