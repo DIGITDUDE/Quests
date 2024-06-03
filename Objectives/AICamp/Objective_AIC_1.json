@@ -1,6 +1,6 @@
 {
     "ConfigVersion": 27,
-    "ID": 1,
+    "ID": 100,
     "ObjectiveType": 8,
     "ObjectiveText": "Kill all 10 bandits at the marked location",
     "TimeLimit": -1,
